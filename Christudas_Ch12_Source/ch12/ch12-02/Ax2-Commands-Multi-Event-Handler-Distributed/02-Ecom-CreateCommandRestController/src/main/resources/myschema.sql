@@ -5,3 +5,14 @@ create table ecom_product_view(id INT , price DOUBLE, stock INT ,description VAR
 create table ecom_order_view(id INT , price DOUBLE, number INT ,description VARCHAR(225),status VARCHAR(50));
 create table ecom_order_audit(id INT ,status VARCHAR(50),date TIMESTAMP);
 
+
+insert into ecom_product(id,description,price,stock,version) values(1,'Shirts',100,5,0);
+insert into ecom_product(id,description,price,stock,version) values(2,'Pants',100,5,0);
+insert into ecom_product(id,description,price,stock,version) values(3,'T-Shirt',100,5,0);
+insert into ecom_product(id,description,price,stock,version) values(4,'Shoes',100,5,0);
+
+ insert into ecom_product_view(id,description,price,stock) values(1,'Shirts',100,5);
+ insert into ecom_product_view(id,description,price,stock) values(2,'Pants',100,5);
+ insert into ecom_product_view(id,description,price,stock) values(3,'T-Shirt',100,5);
+ insert into ecom_product_view(id,description,price,stock) values(4,'Shoes',100,5);
+

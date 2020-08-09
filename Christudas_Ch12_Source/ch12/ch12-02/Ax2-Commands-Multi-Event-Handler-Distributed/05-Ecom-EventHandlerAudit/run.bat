@@ -1,1 +1,1 @@
-java -Dserver.port=8084 -Dspring.application.name=product-audit-01 -jar .\target\05-Ecom-EventHandlerAudit-0.0.1-SNAPSHOT.jar
+java -Dserver.port=8084 -Dspring.application.name=product-audit-01 -Xmx484M -jar .\target\05-Ecom-EventHandlerAudit-0.0.1-SNAPSHOT.jar

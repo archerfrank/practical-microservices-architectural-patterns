@@ -54,15 +54,15 @@ import org.slf4j.LoggerFactory;
 @Configuration
 public class ProductRestControllerConfiguration{
 
-	private static final Logger LOGGER = LoggerFactory.getLogger(ProductRestControllerConfiguration.class);
+        private static final Logger LOGGER = LoggerFactory.getLogger(ProductRestControllerConfiguration.class);
 
-    @Bean
-    RestTemplate restTemplate(ProtobufHttpMessageConverter hmc) {
-        return new RestTemplate(Arrays.asList(hmc));
-    }
+        @Bean
+        RestTemplate restTemplate(ProtobufHttpMessageConverter hmc) {
+            return new RestTemplate(Arrays.asList(hmc));
+        }
 
-    @Bean
-    ProtobufHttpMessageConverter protobufHttpMessageConverter() {
+        @Bean
+        ProtobufHttpMessageConverter protobufHttpMessageConverter() {
         return new ProtobufHttpMessageConverter();
     }
 }

@@ -1,1 +1,1 @@
-java -jar .\target\02-Ecom-CreateCommandRestController-0.0.1-SNAPSHOT.jar
+java -jar -Xmx384M .\target\02-Ecom-CreateCommandRestController-0.0.1-SNAPSHOT.jar

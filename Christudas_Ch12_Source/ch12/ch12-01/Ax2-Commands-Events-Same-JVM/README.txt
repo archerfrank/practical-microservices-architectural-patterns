@@ -1,5 +1,7 @@
 Ax2-Commands-Events-Same-JVM
 
+docker run
+
 MySQL Setup(application.properties)
 -----------------
 server.port=8081
